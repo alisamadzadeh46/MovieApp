@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="overview">overview</string>
+    <string name="format_runtime">%1$d min</string>
+    <string name="retry">retry</string>
+    <string name="casts">Casts</string>
+    <string name="birthday">birthday</string>
+    <string name="_22">22</string>
+    <string name="age">Age</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="acting">Acting</string>
+    <string name="Department">Department</string>
+    <string name="also_known_as">Also known as</string>
+    <string name="deathday">DeathDay</string>
+    <string name="biography">Biography</string>
+    <string name="about">About</string>
+    <string name="photo">Photo</string>
+</resources>

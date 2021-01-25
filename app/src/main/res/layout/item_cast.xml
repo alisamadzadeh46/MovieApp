@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/standard_half"
+    android:layout_height="match_parent">
+
+    <com.example.movie.customview.RatioImageView
+        android:id="@+id/ivCast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:ratio="1"
+        tools:src="@tools:sample/avatars" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvName"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivCast"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/standard_half"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="2"
+        android:lines="2"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="@tools:sample/full_names" />
+
+</RelativeLayout>
